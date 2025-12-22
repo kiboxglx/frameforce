@@ -22,9 +22,7 @@ export const Hero = ({ onEstimateClick }: HeroProps) => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="max-w-3xl lg:max-w-none">
-                        <Reveal>
-                            {/* Badge removed as it is now in the image */}
-                        </Reveal>
+
 
                         <Reveal delay={100}>
                             <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-gray-900 leading-[1.1] mb-8 tracking-tight">
