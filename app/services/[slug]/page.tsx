@@ -1,13 +1,11 @@
-"use client"
+
 
 import { notFound } from "next/navigation"
 import { servicesData } from "@/lib/content"
 import { BookButton } from "@/components/ui/BookButton"
 import { Reveal } from "@/components/ui/Reveal"
 
-type Props = {
-    params: { slug: string }
-}
+
 
 // Ensure metadata generation works with the data
 // export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -63,15 +61,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-2">
                                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs">✓</span>
+                                    <span className="font-medium">Engineering Precision</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs">✓</span>
+                                    <span className="font-medium">Technical Specification Adherence</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs">✓</span>
                                     <span className="font-medium">Licensed & Insured</span>
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs">✓</span>
-                                    <span className="font-medium">Premium Materials</span>
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xs">✓</span>
-                                    <span className="font-medium">On-Time Completion</span>
                                 </li>
                             </ul>
                         </div>
