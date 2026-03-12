@@ -80,11 +80,9 @@ const ProjectCaseStudy = ({
     </div>
 )
 
-interface ProjectsProps {
-    onEstimateClick: () => void // Kept for consistency if needed, though mostly static here
-}
 
-export const Projects = ({ onEstimateClick }: ProjectsProps) => {
+
+export const Projects = () => {
     return (
         <section id="projects" className="py-20 bg-gray-50 border-t border-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,12 +92,37 @@ export const Projects = ({ onEstimateClick }: ProjectsProps) => {
                     </span>
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">Recent Transformations</h2>
                     <p className="text-gray-600 max-w-3xl text-lg">
-                        We don't just renovate; we solve complex spatial problems and increase property value. Here are a
+                        We don&apos;t just renovate; we solve complex spatial problems and increase property value. Here are a
                         few featured stories from North Jersey.
                     </p>
                 </Reveal>
 
                 <div className="space-y-4">
+                    <ProjectCaseStudy
+                        image="/images/projects/master-suite.png"
+                        title="Master Suite & Spa Transformation"
+                        location="Montclair, NJ"
+                        challenge="A century-old home required a complete structural reconfiguration to create a luxury master suite with a spa-like bathroom, including heavy plumbing relocation and floor joist reinforcement."
+                        result="We engineered a new layout that maximized space, installed a curb-less steam shower with linear drains, and integrated custom smart-home climate controls while preserving the architectural integrity."
+                        stats={[
+                            { value: "850", label: "Sq Ft Luxury" },
+                            { value: "Structural", label: "Re-engineering" },
+                        ]}
+                    />
+
+                    <ProjectCaseStudy
+                        image="/images/projects/wood-restoration.png"
+                        title="Wood Flooring Restoration"
+                        location="Nutley, NJ"
+                        challenge="The homeowner wanted to preserve the original 1920s oak floors which were hidden under carpet for decades. They required extensive repair and a modern finish update."
+                        result="We performed dustless sanding, replaced damaged boards with reclaimed oak to match, and applied a custom stain blend for a rich, durable finish that respects the home's history."
+                        stats={[
+                            { value: "2,500", label: "Sq Ft Restored" },
+                            { value: "Custom", label: "Stain Match" },
+                        ]}
+                        reverse={true}
+                    />
+
                     <ProjectCaseStudy
                         image="/images/projects/exterior-framing.jpg"
                         title="Commercial Structural Framing"
@@ -135,19 +158,6 @@ export const Projects = ({ onEstimateClick }: ProjectsProps) => {
                             { value: "Full", label: "Interior Fit-out" },
                             { value: "Acoustic", label: "Solutions" },
                         ]}
-                    />
-
-                    <ProjectCaseStudy
-                        image="/images/projects/hardwood-refinishing.png"
-                        title="Premium Hardwood Restoration"
-                        location="Nutley, NJ"
-                        challenge="The homeowner wanted to preserve the original 1920s oak floors which were hidden under carpet for decades. They required extensive repair and a modern finish update."
-                        result="We performed dustless sanding, replaced damaged boards with reclaimed oak to match, and applied a custom stain blend for a rich, durable finish that respects the home's history."
-                        stats={[
-                            { value: "2,500", label: "Sq Ft Restored" },
-                            { value: "Custom", label: "Stain Match" },
-                        ]}
-                        reverse={true}
                     />
                 </div>
 

@@ -16,7 +16,7 @@ export const Footer = () => {
                             />
                         </div>
                         <p className="text-gray-500 text-sm leading-relaxed max-w-sm mb-6">
-                            Quality craftsmanship you can trust. Serving North Jersey homeowners with pride, precision, and a
+                            Engineering excellence and precision construction you can trust. Serving North Jersey homeowners with pride, precision, and a
                             commitment to excellence.
                         </p>
                     </div>

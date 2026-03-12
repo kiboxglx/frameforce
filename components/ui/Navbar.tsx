@@ -29,7 +29,6 @@ export const Navbar = ({ onEstimateClick }: NavbarProps) => {
     const navLinks = [
         { name: "Services", href: "/#services" },
         { name: "Projects", href: "/#projects" },
-        { name: "Financing", href: "/#financing" },
         { name: "Areas", href: "/#areas" },
     ]
 

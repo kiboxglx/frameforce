@@ -61,7 +61,7 @@ export const Process = () => {
                             <div className="aspect-[4/3] bg-white rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white transform rotate-2 hover:rotate-0 transition-transform duration-700 ease-out">
                                 <div className="w-full h-full relative group">
                                     <img
-                                        src="image_73302b.jpg" // Placeholder
+                                        src="/images/process-main.png"
                                         alt="Premium Kitchen Remodeling Project by FrameForce"
                                         className="w-full h-full object-cover"
                                     />

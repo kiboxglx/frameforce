@@ -26,7 +26,7 @@ export const servicesData: Record<string, ServiceData> = {
         description: "Expert floor installation North Arlington NJ. Hardwood, tile, vinyl, laminate. Dustless sanding and refinishing.",
         h1: "Hardwood & Tile Flooring Installation",
         content: "We install a wide range of flooring options including solid hardwood, engineered wood, luxury vinyl plank (LVP), and ceramic tile. Our team ensures proper subfloor preparation for a durable installation.",
-        image: "/images/projects/hardwood-refinishing.png" // Using uploaded image
+        image: "/images/projects/wood-restoration.png" // Updated to generated image
     },
     "painting": {
         title: "Interior Painting Services North Arlington NJ | FrameForce",

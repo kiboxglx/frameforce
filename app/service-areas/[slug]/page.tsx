@@ -62,7 +62,7 @@ export default async function ServiceAreaPage({ params }: { params: Promise<{ sl
 
                 <p>
                     Whether you are looking to update your kitchen, renovate a master bath, or add space to your home,
-                    our team delivers premium craftsmanship right here in {area.city}.
+                    our team delivers professional engineering and construction excellence right here in {area.city}.
                 </p>
             </div>
 

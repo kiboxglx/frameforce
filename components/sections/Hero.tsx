@@ -1,9 +1,8 @@
 "use client"
 
-import { ShieldCheck, ArrowRight, Phone, Star } from "lucide-react"
+import { ShieldCheck, ArrowRight, Phone } from "lucide-react"
 import { Reveal } from "@/components/ui/Reveal"
 import { sendGAEvent } from "@next/third-parties/google"
-import { cn } from "@/lib/utils"
 
 interface HeroProps {
     onEstimateClick: () => void
@@ -35,7 +34,7 @@ export const Hero = ({ onEstimateClick }: HeroProps) => {
 
                         <Reveal delay={200}>
                             <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl font-medium">
-                                High-end craftsmanship and transparent communication. We transform homes across North Arlington with
+                                Professional engineering and transparent communication. We transform homes across North Arlington with
                                 precision and care.
                             </p>
                         </Reveal>
